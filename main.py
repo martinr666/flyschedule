@@ -1,3 +1,6 @@
+# look up this url https://www.pythonforthelab.com/blog/how-to-control-a-device-through-the-network/
+# https://www.pythonforthelab.com/blog/how-to-write-a-driver-with-lantz/
+
 from __future__ import print_function
 
 from flask import Flask, render_template

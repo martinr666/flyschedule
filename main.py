@@ -20,6 +20,11 @@ def home():
     return render_template("template.html")
     return "Hello, World!"
 
+@app.route("/control/control=<control>", methods=['GET'])
+def update(control):
+  # code to run
+  return render_template("control.html", control=control)
+
 @app.route("/about")
 def about():
     return render_template("about.html")
